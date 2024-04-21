@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>運算思維與程式設計應用教學網站</title>
-  <meta content="這是一個運算思維與程式設計應用教學網站的描述" name="description">
-  <meta content="運算思維, 程式設計, 教學網站" name="keywords">
+  <title>羽生結弦專屬網站</title>
+  <meta content="這是一個關於日本滑冰選手羽生結弦的專屬網站" name="description">
+  <meta content="羽生結弦, 滑冰, 世界冠軍" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -32,104 +32,172 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>羽生結弦冷知識</title>
+    <style>
+      /* 样式表 */
+      .fun-facts {
+        text-align: center;
+      }
+  
+      .slideshow-container {
+        position: relative;
+        max-width: 1000px;
+        margin: auto;
+      }
+  
+      .slide {
+        display: none;
+      }
+  
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+  
+      .prev {
+        left: 0;
+      }
+  
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+  
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+  
+      .fact {
+        padding: 20px;
+      }
+  
+      /* 圈圈標記样式 */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+  
+      .active,
+      .dot:hover {
+        background-color: #717171;
+      }
+  
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+  
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+  
+        to {
+          opacity: 1
+        }
+      }
+    </style>
 </head>
+
 
 
 <body>
 
   <!DOCTYPE html>
-<html lang="zhe">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>運算思維與程式設計應用教學網站</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">運算思維與程式設計</a></h1>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
-          <li><a class="nav-link scrollto" href="#about">關於我們</a></li>
-          <li><a class="nav-link scrollto" href="#services">服務</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">作品集</a></li>
-          <li><a class="nav-link scrollto" href="#team">團隊</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">價格</a></li>
-          <li class="dropdown">
-            <a href="#"><span>更多</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">更多選項 1</a></li>
-              <li class="dropdown">
-                <a href="#"><span>深入</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">深入選項 1</a></li>
-                  <li><a href="#">深入選項 2</a></li>
-                  <li><a href="#">深入選項 3</a></li>
-                  <li><a href="#">深入選項 4</a></li>
-                  <li><a href="#">深入選項 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">更多選項 2</a></li>
-              <li><a href="#">更多選項 3</a></li>
-              <li><a href="#">更多選項 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">聯絡我們</a></li>
-          <li><a class="getstarted scrollto" href="#about">開始</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- 其他網頁內容這裡添加 -->
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  <html lang="zhe">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>羽生結弦專屬網站</title>
+    <meta content="這是一個關於日本滑冰選手羽生結弦的專屬網站" name="description">
+    <meta content="羽生結弦, 滑冰, 世界冠軍" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+  </head>
+  
+  <body>
+  
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+  
+        <h1 class="logo"><a href="index.html">羽生結弦專屬網站</a></h1>
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
+            <li><a class="nav-link scrollto" href="#about">關於羽生結弦</a></li>
+            <li><a class="nav-link scrollto" href="#services">成就與表現</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">影片與圖片</a></li>
+            <li><a class="getstarted scrollto" href="#about">開始探索</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      </div>
+    </header><!-- End Header -->
+  
+    <!-- 其他網頁內容這裡添加 -->
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
+  
 
  <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center" style="background-image: url(https://source.unsplash.com/960x640/?computational-thinking)">
+<section id="hero" class="d-flex align-items-center" style="background-image: url(https://img.ltn.com.tw/Upload/sports/page/800/2022/02/08/phpVCEPkX.jpg)">
   <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
     <div class="row justify-content-center">
       <div class="col-xl-7 col-lg-9 text-center">
-        <h1>運算思維與程式設計應用教學網站</h1>
-        <h2>我們是一群充滿才華的設計師和程式設計師</h2>
+        <h1>探索羽生結弦的滑冰世界</h1>
+        <h2>羽生結弦：一位傳奇滑冰選手的故事</h2>
       </div>
     </div>
     <div class="text-center">
@@ -137,41 +205,34 @@
     </div>
 
     <div class="row icon-boxes">
-      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+      <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
         <div class="icon-box">
           <div class="icon"><i class="ri-stack-line"></i></div>
-          <h4 class="title"><a href="">計算思維概念</a></h4>
-          <p class="description">透過計算思維概念，解決問題並培養邏輯思考能力</p>
+          <h4 class="title"><a href="">羽生結弦的成就</a></h4>
+          <p class="description">探索羽生結弦在滑冰界的傳奇成就與里程碑</p>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+      <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
         <div class="icon-box">
           <div class="icon"><i class="ri-palette-line"></i></div>
-          <h4 class="title"><a href="">程式設計基礎</a></h4>
-          <p class="description">學習程式設計基礎，從寫出第一個程式開始</p>
+          <h4 class="title"><a href="">羽生結弦的技術</a></h4>
+          <p class="description">深入了解羽生結弦在滑冰運動中的獨特技術和風格</p>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+      <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
         <div class="icon-box">
           <div class="icon"><i class="ri-command-line"></i></div>
-          <h4 class="title"><a href="">問題解決技巧</a></h4>
-          <p class="description">掌握問題解決技巧，運用程式設計解決實際問題</p>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
-        <div class="icon-box">
-          <div class="icon"><i class="ri-fingerprint-line"></i></div>
-          <h4 class="title"><a href="">創意思考</a></h4>
-          <p class="description">激發創意思考，打造獨特的程式設計作品</p>
+          <h4 class="title"><a href="">羽生結弦的表演</a></h4>
+          <p class="description">欣賞羽生結弦精彩的表演和動人的滑冰節目</p>
         </div>
       </div>
 
     </div>
   </div>
 </section><!-- End Hero -->
+
 
 
   <main id="main">
@@ -181,26 +242,26 @@
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>關於運算思維與程式設計應用</h2>
-      <p>探索運算思維的世界，以及在程式設計中的實際應用。</p>
+      <h2>探索羽生結弦的滑冰世界</h2>
+      <p>了解羽生結弦的獨特技術和對滑冰界的貢獻。</p>
     </div>
 
     <div class="row content">
       <div class="col-lg-6">
         <p>
-          運算思維涉及將複雜問題分解為較小、可管理的部分，並使用演算法和邏輯推理制定系統性解決方案。這是計算機科學和程式設計領域的基本技能。
+          羽生結弦以其優雅和技術的完美結合而聞名於世。他能夠將複雜的技術和動作融入他的表演中，贏得了無數觀眾的讚賞和尊敬。
         </p>
         <ul>
-          <li><i class="ri-check-double-line"></i> 分析問題並將其分解為較小的組件</li>
-          <li><i class="ri-check-double-line"></i> 開發演算法以有效解決問題</li>
-          <li><i class="ri-check-double-line"></i> 應用邏輯推理設計解決方案</li>
+          <li><i class="ri-check-double-line"></i> 展示優雅和技術的完美結合</li>
+          <li><i class="ri-check-double-line"></i> 獨特的滑冰風格和技術</li>
+          <li><i class="ri-check-double-line"></i> 對滑冰界的深遠影響</li>
         </ul>
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0">
         <p>
-          程式設計是運算思維的實際應用，其中概念和演算法被轉化為代碼。通過程式設計，我們將想法變為現實，創建可以自動執行任務、分析數據並解決現實問題的解決方案。
+          羽生結弦不僅是一位傑出的運動員，還是一個獨特的藝術家。他的表演不僅僅是一場比賽，更是一場藝術展，將人們帶入他的滑冰世界。
         </p>
-        <a href="#" class="btn-learn-more">探索更多</a>
+        <a href="#" class="btn-learn-more">了解更多</a>
       </div>
     </div>
 
@@ -208,511 +269,534 @@
 </section>
 <!-- End About Section -->
 
-    <!-- ======= 統計區域 ======= -->
-<section id="counts" class="counts section-bg">
-  <div class="container">
 
-    <div class="row justify-content-end">
-
-      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-        <div class="count-box">
-          <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2"
-            class="purecounter"></span>
-          <p>滿意的客戶</p>
+<!-- ======= 羽生結弦生涯經歷區域 ======= -->
+<section id="career" class="career section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <!-- 羽生結弦生涯經歷 -->
+      <div class="col-lg-6">
+        <div class="section-title">
+          <h2>羽生結弦的生涯經歷</h2>
+          <p>以下是羽生結弦的主要生涯里程碑和成就。</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-content">
+              <h3>2009年</h3>
+              <p>羽生結弦在2009年日本青少年冠軍賽中獲得了青少年男子組亞軍。</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-content">
+              <h3>2010年</h3>
+              <p>羽生結弦在2010年世界錦標賽中獲得了男子單人花式滑冰的銀牌。</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-content">
+              <h3>2014年</h3>
+              <p>羽生結弦在2014年日本國家花式滑冰錦標賽中贏得了男子單人花式滑冰的冠軍。</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="timeline-content">
+              <h3>2018年</h3>
+              <p>羽生結弦在2018年世界錦標賽中再次贏得了男子單人花式滑冰的冠軍。</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="timeline-content">
+              <h3>2022年</h3>
+              <p>羽生結弦在記者會上宣布正式引退，結束了他的花式滑冰生涯。</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-        <div class="count-box">
-          <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2"
-            class="purecounter"></span>
-          <p>專案</p>
-        </div>
+      <!-- 圖片 -->
+      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+        <img src="https://images.playground.com/a4e21ee6e81b43ba8ac4082a68a1e690.jpeg" class="img-fluid" alt="羽生結弦">
       </div>
-
-      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-        <div class="count-box">
-          <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="2"
-            class="purecounter"></span>
-          <p>經驗年限</p>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-        <div class="count-box">
-          <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2"
-            class="purecounter"></span>
-          <p>獎項</p>
-        </div>
-      </div>
-
     </div>
-
   </div>
-</section><!-- 統計區域結束 -->
+</section>
+<!-- End 羽生結弦生涯經歷區域 -->
 
-   <!-- ======= 關於影片區域 ======= -->
+
+
+  <!-- ======= 羽生結弦影片介紹區域 ======= -->
 <section id="about-video" class="about-video">
   <div class="container" data-aos="fade-up">
 
     <div class="row">
 
-      <div class="col-lg-6 video-box align-self-baseline position-relative" data-aos="fade-right"
+      <div class="col-lg-7 video-box align-self-baseline position-relative" data-aos="fade-right"
         data-aos-delay="100">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/bJzb-RuUcMU?si=dS3n5Rv6iSuip9G9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe frameborder="0" scrolling="no" width="100%" height="480" src="https://drive.google.com/file/d/1C4Qt_mDEmfINHVpF93aeDwXW0y7Cmy1jlY_UrYp-APk/preview"> </iframe>
-
+        <iframe width="560" height="320" src="https://www.youtube.com/embed/Nl9lHp85Uqo?si=TKesK5JJp1XPjXZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
-      <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-        <h3>運算思維與程式設計應用介紹影片</h3>
+      <div class="col-lg-5 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+        <h3>探索羽生結弦的滑冰世界</h3>
         <p class="fst-italic">
-          了解運算思維和程式設計在現實生活中的應用。
+          欣賞羽生結弦的優雅滑冰表演和他對滑冰界的影響力。
         </p>
         <ul>
-          <li><i class="bx bx-check-double"></i> 使用運算思維解決現實生活中的問題。</li>
-          <li><i class="bx bx-check-double"></i> 學習程式設計如何將概念轉化為可行的解決方案。</li>
-          <li><i class="bx bx-check-double"></i> 瞭解程式設計如何改變世界。</li>
-          <li><i class="bx bx-check-double"></i> 探索程式設計背後的原理和技術。</li>
+          <li><i class="bx bx-check-double"></i> 欣賞羽生結弦的優雅和技術的結合。</li>
+          <li><i class="bx bx-check-double"></i> 瞭解羽生結弦在滑冰界的重要成就。</li>
+          <li><i class="bx bx-check-double"></i> 探索羽生結弦的滑冰背後的故事。</li>
         </ul>
         <p>
-          通過這部影片，您將了解運算思維和程式設計的核心概念，並獲得對這些概念在現實世界中的應用的深入理解。
+          通過這部影片，您將深入了解羽生結弦作為一位滑冰選手的獨特魅力和他在滑冰界的重要地位。
         </p>
       </div>
 
     </div>
 
   </div>
-</section><!-- 關於影片區域結束 -->
-
-    <!-- ======= 學習者回饋區域 ======= -->
-<section id="clients" class="clients section-bg">
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-        <img src="https://source.unsplash.com/400x400/?student" class="img-fluid" alt="學生">
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-        <img src="https://source.unsplash.com/400x400/?education" class="img-fluid" alt="教育">
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-        <img src="https://source.unsplash.com/400x400/?classroom" class="img-fluid" alt="教室">
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-        <img src="https://source.unsplash.com/400x400/?technology" class="img-fluid" alt="科技">
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-        <img src="https://source.unsplash.com/400x400/?coding" class="img-fluid" alt="程式碼">
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-        <img src="https://source.unsplash.com/400x400/?computer" class="img-fluid" alt="電腦">
-      </div>
-
-    </div>
-
-  </div>
-</section><!-- 學習者回饋區域結束 -->
+</section><!-- 羽生結弦影片介紹區域結束 -->
 
 
-<!-- ======= 學習者見證區域 ======= -->
-<section id="testimonials" class="testimonials">
+
+
+<!-- ======= 羽生結弦的成就區域 ======= -->
+<section id="yuzuru-achievements" class="services section-bg">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>學習者見證</h2>
-      <p>以下是一些學習者對我們課程的見證。</p>
-    </div>
-
-    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              學習程式設計過程中，我真正體會到了運算思維的力量，這不僅是一門技能，更是一種思考方式，讓我在解決問題時更加有自信。
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="https://source.unsplash.com/400x400/?student" class="testimonial-img" alt="學生">
-            <h3>小明</h3>
-            <h4>學生</h4>
-          </div>
-        </div><!-- End testimonial item -->
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              我從未想過自己會成為一名程式設計師，但通過這門課程，我發現了自己的潛力，現在我能夠輕鬆地撰寫程式，解決各種問題。
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="https://source.unsplash.com/400x400/?education" class="testimonial-img" alt="教育">
-            <h3>小花</h3>
-            <h4>學生</h4>
-          </div>
-        </div><!-- End testimonial item -->
-
-        <!-- 更多見證可以在此添加 -->
-
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-
-  </div>
-</section><!-- 學習者見證區域結束 -->
-
-<!-- ======= 課程服務區域 ======= -->
-<section id="services" class="services section-bg">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-title">
-      <h2>課程服務</h2>
-      <p>以下是我們提供的課程服務。</p>
+      <h2>羽生結弦的成就</h2>
+      <p>以下是羽生結弦在滑冰界取得的傑出成就。</p>
     </div>
 
     <div class="row">
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
         <div class="icon-box iconbox-blue">
           <div class="icon">
-            <i class="bx bxl-python"></i>
+            <i class="bx bx-trophy"></i>
           </div>
-          <h4><a href="">Python 程式設計</a></h4>
-          <p>從基礎到進階，學習 Python 程式設計，掌握程式設計的基本概念與技巧。</p>
+          <h4><a href="">奧運金牌</a></h4>
+          <p>羽生結弦在奧運會上獲得的金牌，展現了他的卓越技術和表現。</p>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
         <div class="icon-box iconbox-orange ">
           <div class="icon">
-            <i class="bx bx-code-alt"></i>
+            <i class="bx bx-medal"></i>
           </div>
-          <h4><a href="">運算思維培養</a></h4>
-          <p>培養邏輯思維、問題解決能力，透過程式設計實踐運算思維的應用。</p>
+          <h4><a href="">世界錦標賽冠軍</a></h4>
+          <p>羽生結弦在世界錦標賽上的傑出表現，贏得了冠軍頭銜。</p>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
         <div class="icon-box iconbox-pink">
           <div class="icon">
-            <i class="bx bx-network-chart"></i>
+            <i class="bx bx-medal"></i>
           </div>
-          <h4><a href="">程式設計專案</a></h4>
-          <p>參與實際專案，應用所學知識解決現實問題，培養團隊合作與專案管理能力。</p>
+          <h4><a href="">四大洲錦標賽冠軍</a></h4>
+          <p>羽生結弦在四大洲錦標賽上的優異表現，奪得了冠軍榮譽。</p>
         </div>
       </div>
 
     </div>
 
   </div>
-</section><!-- End 課程服務區域 -->
+</section><!-- 羽生結弦的成就區域結束 -->
 
 
-<!-- ======= 呼籲行動區域 ======= -->
-<section id="cta" class="cta">
-  <div class="container" data-aos="zoom-in">
-    <div class="text-center">
-      <h3>立即行動</h3>
-      <p>我們致力於提供最優質的服務，立即聯繫我們以了解更多詳情。</p>
-      <a class="cta-btn" href="#">立即聯繫我們</a>
-    </div>
-  </div>
-</section><!-- End 呼籲行動區域 -->
 
 
-   <!-- ======= Portfolio Section ======= -->
+<!-- ======= 羽生結弦作品展示區域 ======= -->
 <section id="portfolio" class="portfolio">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>運算思維與程式設計應用</h2>
-      <p>這裡展示了一些與運算思維與程式設計相關的作品。透過這些作品，您可以了解不同程式設計應用的實際案例，並深入理解相關的概念與技術。</p>
-    </div>
-
-    <div class="row" data-aos="fade-up" data-aos-delay="150">
-      <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">全部</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-      </div>
+      <h2>羽生結弦的精彩時刻</h2>
+      <p>這裡展示了羽生結弦在滑冰界的精彩表現。通過這些作品，您可以欣賞到他的優雅動作和令人驚嘆的技巧，深入感受他在滑冰之路上的輝煌。</p>
     </div>
 
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-performance">
         <div class="portfolio-wrap">
-          <img src="https://source.unsplash.com/960x640/?programming" class="img-fluid" alt="">
+          <img src="http://www.desktx.com/d/file/phone/sport/20161109/82d6cb3fd9c54fb5cb44492b94b67cca.jpg" class="img-fluid" alt="" style="width: 100%; height: auto;">
           <div class="portfolio-info">
-            <h4>App 1</h4>
-            <p>App</p>
+            <h4>比賽表現 1</h4>
+            <p>比賽表現</p>
             <div class="portfolio-links">
-              <a href="https://source.unsplash.com/960x640/?programming" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="更多詳情"><i class="bx bx-link"></i></a>
+              <a href="http://www.desktx.com/d/file/phone/sport/20161109/82d6cb3fd9c54fb5cb44492b94b67cca.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="比賽表現 1"><i class="bx bx-plus"></i></a>
+              <a href="#" title="更多詳情"><i class="bx bx-link"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- 其他作品卡片 -->
-
-    </div>
-
-  </div>
-</section><!-- End Portfolio Section -->
-
-
-   <!-- ======= Team Section ======= -->
-<section id="team" class="team section-bg">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-title">
-      <h2>團隊成員</h2>
-      <p>這是我們的團隊成員，他們在運算思維與程式設計應用領域中有豐富的經驗與專業知識，為您提供高品質的服務與支援。</p>
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-        <div class="member">
-          <div class="member-img">
-            <img src="https://source.unsplash.com/960x640/?programmer" class="img-fluid" alt="">
-            <div class="social">
-              <a href=""><i class="bi bi-twitter"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-performance">
+        <div class="portfolio-wrap">
+          <img src="http://www.desktx.com/d/file/phone/sport/20161116/7bad3fdb7a6911300b2d39434f1d5f1c.jpg" class="img-fluid" alt="" style="width: 100%; height: auto;">
+          <div class="portfolio-info">
+            <h4>比賽表現 2</h4>
+            <p>比賽表現</p>
+            <div class="portfolio-links">
+              <a href="http://www.desktx.com/d/file/phone/sport/20161116/7bad3fdb7a6911300b2d39434f1d5f1c.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="比賽表現 2"><i class="bx bx-plus"></i></a>
+              <a href="#" title="更多詳情"><i class="bx bx-link"></i></a>
             </div>
           </div>
-          <div class="member-info">
-            <h4>華特·懷特</h4>
-            <span>首席執行官</span>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-performance">
+        <div class="portfolio-wrap">
+          <img src="http://www.desktx.com/d/file/phone/sport/20161109/fbbbf0e0409967ec165627b465876439.jpg" class="img-fluid" alt="" style="width: 100%; height: auto;">
+          <div class="portfolio-info">
+            <h4>比賽表現 3</h4>
+            <p>比賽表現</p>
+            <div class="portfolio-links">
+              <a href="http://www.desktx.com/d/file/phone/sport/20161109/fbbbf0e0409967ec165627b465876439.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="比賽表現 3"><i class="bx bx-plus"></i></a>
+              <a href="#" title="更多詳情"><i class="bx bx-link"></i></a>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- 其他團隊成員卡片 -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-performance">
+        <div class="portfolio-wrap">
+          <img src="http://www.desktx.com/d/file/phone/sport/20161109/73532eda8f33612864021f2cf3ac1fa0.jpg" class="img-fluid" alt="" style="width: 100%; height: auto;">
+          <div class="portfolio-info">
+            <h4>比賽表現 4</h4>
+            <p>比賽表現</p>
+            <div class="portfolio-links">
+              <a href="http://www.desktx.com/d/file/phone/sport/20161109/73532eda8f33612864021f2cf3ac1fa0.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="比賽表現 4"><i class="bx bx-plus"></i></a>
+              <a href="#" title="更多詳情"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-performance">
+        <div class="portfolio-wrap">
+          <img src="https://i.epochtimes.com/assets/uploads/2022/02/id13566560-GettyImages-1237414068-700x359.jpeg" class="img-fluid" alt="" style="width: 100%; height: auto;">
+          <div class="portfolio-info">
+            <h4>比賽表現 5</h4>
+            <p>比賽表現</p>
+            <div class="portfolio-links">
+              <a href="https://i.epochtimes.com/assets/uploads/2022/02/id13566560-GettyImages-1237414068-700x359.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="比賽表現 5"><i class="bx bx-plus"></i></a>
+              <a href="#" title="更多詳情"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 剩餘作品卡片 -->
 
     </div>
 
   </div>
-</section><!-- End Team Section -->
+</section><!-- End 羽生結弦作品展示區域 -->
 
 
-    <!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing">
+
+<!-- ======= 表演特色區域 ======= -->
+<section id="features" class="features">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>價格方案</h2>
-      <p>我們提供多種價格方案，以滿足您在運算思維與程式設計應用領域的需求。請選擇適合您的方案開始享受我們的服務。</p>
+      <h2>表演特色</h2>
+      <p>羽生結弦的表演以獨特的特色和精彩的內容吸引著觀眾。以下是我們的表演特色方案，讓您更深入地了解羽生結弦的表演魅力。</p>
     </div>
 
     <div class="row">
 
-      <div class="col-lg-4 col-md-6" data-aos="zoom-im" data-aos-delay="100">
-        <div class="box">
-          <h3>免費方案</h3>
-          <h4><sup>$</sup>0<span> / 月</span></h4>
-          <ul>
-            <li>基本功能</li>
-            <li>限制功能</li>
-            <li>標準支援</li>
-            <li class="na">進階功能</li>
-            <li class="na">專業支援</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">立即購買</a>
-          </div>
+      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon-box">
+          <div class="icon"><i class="bi bi-tv"></i></div>
+          <h4 class="title">視覺饗宴</h4>
+          <p class="description">羽生結弦的表演充滿視覺震撼，營造出令人難以忘懷的舞台畫面。</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-        <div class="box featured">
-          <h3>商業方案</h3>
-          <h4><sup>$</sup>19<span> / 月</span></h4>
-          <ul>
-            <li>進階功能</li>
-            <li>基本支援</li>
-            <li>標準功能</li>
-            <li>專業支援</li>
-            <li class="na">限制功能</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">立即購買</a>
-          </div>
+      <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <div class="icon"><i class="bi bi-music-note"></i></div>
+          <h4 class="title">音樂魅力</h4>
+          <p class="description">每一次表演都配以優美動聽的音樂，為觀眾帶來心靈的共鳴與感動。</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
-        <div class="box">
-          <h3>開發者方案</h3>
-          <h4><sup>$</sup>29<span> / 月</span></h4>
-          <ul>
-            <li>進階功能</li>
-            <li>專業支援</li>
-            <li>標準功能</li>
-            <li>基本支援</li>
-            <li>無限制功能</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">立即購買</a>
-          </div>
+      <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+        <div class="icon-box">
+          <div class="icon"><i class="bi bi-heart"></i></div>
+          <h4 class="title">情感表達</h4>
+          <p class="description">透過舞姿和動作，羽生結弦將情感豐富地表現在每一個動作中，打動觀眾的心。</p>
         </div>
       </div>
 
     </div>
 
   </div>
-</section><!-- End Pricing Section -->
+</section><!-- End 表演特色區域 -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+
+
+
+<!-- ======= 羽生結弦相關問題區域 ======= -->
 <section id="faq" class="faq section-bg">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>常見問題</h2>
-      <p>以下是我們經常收到的有關運算思維與程式設計應用的問題。如果您有其他問題，請隨時與我們聯繫。</p>
+      <h2>羽生結弦相關問題</h2>
+      <p>以下是我們經常收到的有關羽生結弦的問題。如果您有其他問題，請隨時與我們聯繫。</p>
     </div>
 
     <div class="faq-list">
       <ul>
         <li data-aos="fade-up">
           <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-            data-bs-target="#faq-list-1">運算思維是什麼？ <i
+            data-bs-target="#faq-list-1">羽生結弦是誰？ <i
               class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
           <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
             <p>
-              運算思維是一種解決問題的能力，涉及將大問題分解為更小的子問題，並使用邏輯和算法來解決它們。
+              羽生結弦是日本籍男子單人花式滑冰選手，是一位世界冠軍和奧運獎牌得主。
             </p>
           </div>
         </li>
 
         <li data-aos="fade-up" data-aos-delay="100">
           <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
-            class="collapsed">程式設計的重要性是什麼？ <i
+            class="collapsed">羽生結弦的最高成績是什麼？ <i
               class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
           <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
             <p>
-              程式設計是一種創造性的活動，通過撰寫代碼解決問題，從而提高解決問題的效率和準確性。
+              羽生結弦曾經是世界錦標賽和奧運會的金牌得主，是世界花式滑冰界的頂尖選手之一。
             </p>
           </div>
         </li>
 
         <li data-aos="fade-up" data-aos-delay="200">
           <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
-            class="collapsed">學習程式設計需要多長時間？ <i
+            class="collapsed">羽生結弦的訓練方式是怎樣的？ <i
               class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
           <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
             <p>
-              學習程式設計的時間因人而異，但通常需要持續學習和實踐，可能需要幾個月或幾年才能達到熟練水平。
+              羽生結弦的訓練方式非常嚴格，包括日常的體能訓練、滑冰訓練、技術練習以及心理訓練等。
             </p>
           </div>
         </li>
 
         <li data-aos="fade-up" data-aos-delay="300">
           <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
-            class="collapsed">哪些是常見的程式設計語言？ <i
+            class="collapsed">羽生結弦的獨特技巧是什麼？ <i
               class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
           <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
             <p>
-              常見的程式設計語言包括Python、JavaScript、Java、C++、C#、PHP等。
+              羽生結弦以其優美的跳躍和流暢的動作而聞名，他的獨特技巧和編排使他在滑冰界獨具一格。
             </p>
           </div>
         </li>
 
-        <li data-aos="fade-up" data-aos-delay="400">
-          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
-            class="collapsed">如何開始學習程式設計？ <i
-              class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-          <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              您可以通過在線課程、教科書、教程和練習項目等資源開始學習程式設計。另外，加入程式設計社群和參加實踐項目也是很有幫助的。
-            </p>
-          </div>
-        </li>
+        <!-- 其他問題 -->
 
       </ul>
     </div>
 
   </div>
-</section><!-- End Frequently Asked Questions Section -->
+</section><!-- End 羽生結弦相關問題區域 -->
 
 
-   <!-- ======= Contact Section ======= -->
+
+<!-- ======= 生成AI圖像區域 ======= -->
+<section id="generate-ai-image" class="section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+      <!-- 左側：生成AI圖像功能按鈕及圖片 -->
+      <div class="col-lg-6">
+        <h2>生成羽生結弦AI圖像</h2>
+        <p>點擊下面的按鈕生成羽生結弦AI圖像：</p>
+
+        <!-- 添加一個按鈕，點擊後生成AI圖像 -->
+        <button onclick="generateAIImage()">生成AI圖像</button>
+
+        <!-- 用來顯示生成的AI圖像的地方 -->
+        <div id="generated-image"></div>
+      </div>
+
+  </div>
+</section><!-- End 生成AI圖像區域 -->
+
+<script>
+  // 定義一個包含圖片URL的數組
+  const imageUrls = [
+      "https://images.playground.com/6f0f321dbf2e40a1bb6c0bc4203031a1.jpeg",
+      "https://images.playground.com/076c77a31231401281ee085d6ba2c0b7.jpeg",
+      "https://images.playground.com/4c340c19b75247d0ba305fe2ea2ecb65.jpeg",
+      "https://images.playground.com/ce52f9dfce664568944a69c5132a1021.jpeg",
+      "https://images.playground.com/d5f9b2de3a494f2b803aed98a5938cbf.jpeg",
+      "https://images.playground.com/f30e90fee50442d0a1fd1cf175276d2c.jpeg",
+      "https://images.playground.com/9bc07f98ca9e49c3a3e21e772e7891b7.jpeg",
+      "https://images.playground.com/d9ddda762e094f4eba58f26f8d79ec81.jpeg",
+      "https://images.playground.com/43542d06de694cd7aa5c0ed05577154f.jpeg",
+      "https://images.playground.com/50536bc3f6444342b028f3dd4f569ea8.jpeg",
+    // 添加更多圖片的URL
+  ];
+
+  // 定義一個函數，用來生成AI圖像
+  function generateAIImage() {
+    // 從圖片URL數組中隨機選擇一個URL
+    const randomIndex = Math.floor(Math.random() * imageUrls.length);
+    const randomImageUrl = imageUrls[randomIndex];
+
+    // 在網頁上顯示生成的圖像
+    const generatedImage = document.getElementById("generated-image");
+    generatedImage.innerHTML = `<img src="${randomImageUrl}" alt="Generated AI Image">`;
+  }
+</script>
+
+
+
+  <!-- ======= 羽生結弦冷知識區域 ======= -->
+  <section id="fun-facts" class="fun-facts section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <h2>羽生結弦的冷知識</h2>
+
+      <!-- 冷知識 slide 列表 -->
+      <div class="slideshow-container" data-aos="fade-up">
+
+        <!-- 冷知識幻燈片 1 -->
+        <div class="slide fade">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-dizzy"></i></div>
+            <h4>小時候患哮喘</h4>
+          </div>
+          <div class="fact">
+            <p>為增強體質而開始練習花式滑冰。</p>
+          </div>
+        </div>
+
+        <!-- 冷知識幻燈片 2 -->
+        <div class="slide fade">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-music"></i></div>
+            <h4>練滑時斷絕社交</h4>
+          </div>
+          <div class="fact">
+            <p>唯一的娛樂是聽歌。</p>
+          </div>
+        </div>
+
+        <!-- 冷知識幻燈片 3 -->
+        <div class="slide fade">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-target-lock"></i></div>
+            <h4>目標明確</h4>
+          </div>
+          <div class="fact">
+            <p>從小就有清晰的人生規劃。</p>
+          </div>
+        </div>
+
+        <!-- 冷知識幻燈片 4 -->
+        <div class="slide fade">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-book"></i></div>
+            <h4>拒絕當學生運動員</h4>
+          </div>
+          <div class="fact">
+            <p>沒有憑藉體育特長考進的大學。</p>
+          </div>
+        </div>
+
+        <!-- 冷知識幻燈片 5 -->
+        <div class="slide fade">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-heart"></i></div>
+            <h4>日本公主的粉絲</h4>
+          </div>
+          <div class="fact">
+            <p>日本公主也是他的粉絲，收集他的照片和雜誌。</p>
+          </div>
+        </div>
+
+        <!-- 冷知識幻燈片 6 -->
+        <div class="slide fade">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-code-alt"></i></div>
+            <h4>技術專業</h4>
+          </div>
+          <div class="fact">
+            <p>曾建立「3D技術捕捉花滑」的程序。</p>
+          </div>
+        </div>
+
+
+        <!-- 上一頁/下一頁按鈕 -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+
+      <!-- 圈圈標記 -->
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+
+    </div>
+  </section><!-- End 羽生結弦冷知識區域 -->
+
+  <script>
+    // JavaScript 代碼
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // 下一頁/上一頁控制功能
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // 當前頁面控制功能
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    // 實際顯示幻燈片的功能
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+
+</html>
+
+
+<!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
   <div class="container" data-aos="fade-up">
 
-    <div class="section-title">
-      <h2>聯絡我們</h2>
-      <p>如果您有任何關於運算思維與程式設計應用的問題或建議，請隨時與我們聯繫。我們期待聽到您的消息！</p>
-    </div>
-
     <div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14467.76001603884!2d121.1952988!3d24.9681558!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1712573896181!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <div class="row mt-5">
-
-      <div class="col-lg-4">
-        <div class="info">
-          <div class="address">
-            <i class="bi bi-geo-alt"></i>
-            <h4>地址:</h4>
-            <p>台北市中正區八德路一段1號</p>
-          </div>
-
-          <div class="email">
-            <i class="bi bi-envelope"></i>
-            <h4>Email:</h4>
-            <p>info@example.com</p>
-          </div>
-
-          <div class="phone">
-            <i class="bi bi-phone"></i>
-            <h4>聯絡電話:</h4>
-            <p>+1 5589 55488 55s</p>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="col-lg-8 mt-5 mt-lg-0">
-
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-          <div class="row gy-2 gx-md-3">
-            <div class="col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="您的姓名" required>
-            </div>
-            <div class="col-md-6 form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="您的電子郵件" required>
-            </div>
-            <div class="form-group col-12">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="主題" required>
-            </div>
-            <div class="form-group col-12">
-              <textarea class="form-control" name="message" rows="5" placeholder="請輸入您的訊息" required></textarea>
-            </div>
-            <div class="my-3 col-12">
-              <div class="loading">正在發送...</div>
-              <div class="error-message"></div>
-              <div class="sent-message">您的訊息已成功發送。謝謝您的聯絡！</div>
-            </div>
-            <div class="text-center col-12"><button type="submit">發送訊息</button></div>
-          </div>
-        </form>
-
-      </div>
-
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe7PUZHOzESxZt5AJjZ56d6obvrAFXc-qqmrTHN85zn4wElLw/viewform?embedded=true" width="1200" height="800" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
     </div>
 
   </div>
@@ -721,93 +805,6 @@
 
   </main><!-- End #main -->
 
- <!-- ======= Footer ======= -->
-<footer id="footer">
-
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h3>運算思維與程式設計應用</h3>
-          <p>
-            台北市中正區八德路一段1號 <br>
-            電子資訊大樓 6F<br>
-            <br>
-            <strong>電話:</strong> +886 2 1234 5678<br>
-            <strong>Email:</strong> info@example.com<br>
-          </p>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>相關連結</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">首頁</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">關於我們</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">服務項目</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">服務條款</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">隱私政策</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>我們的服務</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">網頁設計</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">網頁開發</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">產品管理</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">行銷</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">平面設計</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>訂閱電子報</h4>
-          <p>訂閱我們的電子報，隨時獲得最新資訊與更新！</p>
-          <form action="" method="post">
-            <input type="email" name="email" placeholder="您的電子郵件" required><input type="submit" value="訂閱">
-          </form>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container d-md-flex py-4">
-
-    <div class="me-md-auto text-center text-md-start">
-      <div class="copyright">
-        &copy; 版權所有 <strong><span>運算思維與程式設計應用</span></strong>
-      </div>
-      <div class="credits">
-        設計由 <a href="https://bootstrapmade.com/">BootstrapMade</a> 提供
-      </div>
-    </div>
-    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-    </div>
-  </div>
-</footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
 </body>
 
